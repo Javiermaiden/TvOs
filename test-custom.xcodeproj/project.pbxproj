@@ -14,6 +14,7 @@
 		2B40EB2824B5C2B200A6FBE3 /* test_customUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40EB2724B5C2B200A6FBE3 /* test_customUITests.swift */; };
 		2B40EB3824B5D93A00A6FBE3 /* UIDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40EB3724B5D93A00A6FBE3 /* UIDescriptionView.swift */; };
 		2B40EB3A24B5DC4000A6FBE3 /* CustomInterfaceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40EB3924B5DC4000A6FBE3 /* CustomInterfaceFactory.swift */; };
+		2B4D0CF524B7294600E67D80 /* UIColor+HeliumColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D0CF424B7294600E67D80 /* UIColor+HeliumColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		2B40EB2924B5C2B200A6FBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B40EB3724B5D93A00A6FBE3 /* UIDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDescriptionView.swift; sourceTree = "<group>"; };
 		2B40EB3924B5DC4000A6FBE3 /* CustomInterfaceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInterfaceFactory.swift; sourceTree = "<group>"; };
+		2B4D0CF424B7294600E67D80 /* UIColor+HeliumColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HeliumColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		2B40EB0A24B5C2AF00A6FBE3 /* test-custom */ = {
 			isa = PBXGroup;
 			children = (
+				2B4D0CF324B7268600E67D80 /* Extensions */,
 				2B40EB0B24B5C2AF00A6FBE3 /* AppDelegate.swift */,
 				2B40EB0D24B5C2AF00A6FBE3 /* application.js */,
 				2B40EB0E24B5C2B200A6FBE3 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				2B40EB2924B5C2B200A6FBE3 /* Info.plist */,
 			);
 			path = "test-customUITests";
+			sourceTree = "<group>";
+		};
+		2B4D0CF324B7268600E67D80 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B4D0CF424B7294600E67D80 /* UIColor+HeliumColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B40EB0C24B5C2AF00A6FBE3 /* AppDelegate.swift in Sources */,
+				2B4D0CF524B7294600E67D80 /* UIColor+HeliumColor.swift in Sources */,
 				2B40EB3824B5D93A00A6FBE3 /* UIDescriptionView.swift in Sources */,
 				2B40EB3A24B5DC4000A6FBE3 /* CustomInterfaceFactory.swift in Sources */,
 			);

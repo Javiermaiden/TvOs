@@ -30,17 +30,20 @@ class DescriptionViewController: UIViewController {
     
     override func viewDidLoad(){
         super.viewDidLoad()
-        setUpDescription()
-        //setUpButton()
-        //setUpPlayButton()
+//        setUpDescription()
+//        setUpButton()
+//        setUpPlayButton()
     }
     
     private func setUpDescription(){
         mediaTitle = UILabel()
         mediaTitle.font = UIFont.systemFont(ofSize: 57)
         mediaTitle.text = self.title_text
+//        mediaTitle.UIColor = UIColor.heliumButtonFocus
+        let color = UIColor.heliumBackground
         mediaTitle.textAlignment = .left
         mediaTitle.frame = CGRect(x: 90, y: 230, width: 800, height: 57)
+        mediaTitle.textColor = color
         //mediaTitle.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(mediaTitle)
         //mediaTitle.topAnchor.constraint(equalTo: view.topAnchor, constant: 130).isActive = true

@@ -27,8 +27,6 @@ class CustomInterfaceFactory: TVInterfaceFactory {
         if let description = element.attributes?["description"]{
             descriptionViewController.description_text = description
         }
-        
-
         return descriptionViewController
     }
     
