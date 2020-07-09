@@ -21,7 +21,7 @@ class DescriptionViewController: UIViewController {
     
     var mediaButton: UIButton = UIButton()
     var playButton: UIButton = UIButton()
-    
+    var favButton: UIButton = UIButton()
     /*required init?(coder: NSCoder) {
         self.title_text = "label"
         self.mediaTitle = UILabel()
@@ -32,7 +32,7 @@ class DescriptionViewController: UIViewController {
         super.viewDidLoad()
 //        setUpDescription()
 //        setUpButton()
-//        setUpPlayButton()
+        setUpPlayButton()
     }
     
     private func setUpDescription(){
@@ -91,21 +91,23 @@ class DescriptionViewController: UIViewController {
         view.addSubview(mediaButton)
     }
     private func setUpPlayButton(){
-        playButton = UIButton()
-        playButton.frame = CGRect(x: 700, y: 200, width: 440, height: 90)
-        playButton.backgroundColor = .darkGray
-        playButton.setImage(.add, for: .normal)
-        
-        playButton.setTitle("ghjk", for: .normal)
-        playButton.setTitleColor(.white, for: .normal)
-        playButton.layer.cornerRadius = 45
-        playButton.layer.borderWidth = 1
-        playButton.layer.borderColor = UIColor.white.cgColor
-        
-        playButton.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 40);
+        playButton = UIButton().heliumButton(x: 700, y: 200, width: 400, height: 90, text: "Play Button", icon: "add")
+        favButton = UIButton().heliumButton(x: 700, y: 300, width: 400, height: 90, text: "Fav Button", icon: "add")
+//        playButton.frame = CGRect(x: 700, y: 200, width: 440, height: 90)
+//        playButton.backgroundColor = .darkGray
+//        playButton.setImage(.add, for: .normal)
+//
+//        playButton.setTitle("ghjk", for: .normal)
+//        playButton.setTitleColor(.white, for: .normal)
+//        playButton.layer.cornerRadius = 45
+//        playButton.layer.borderWidth = 1
+//        playButton.layer.borderColor = UIColor.white.cgColor
+//
+//        playButton.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 40);
         //mediaButton.titleEdgeInsets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 0);
         
         view.addSubview(playButton)
+        view.addSubview(favButton)
     }
     
 }

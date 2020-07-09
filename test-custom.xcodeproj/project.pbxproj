@@ -15,6 +15,7 @@
 		2B40EB3824B5D93A00A6FBE3 /* UIDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40EB3724B5D93A00A6FBE3 /* UIDescriptionView.swift */; };
 		2B40EB3A24B5DC4000A6FBE3 /* CustomInterfaceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40EB3924B5DC4000A6FBE3 /* CustomInterfaceFactory.swift */; };
 		2B4D0CF524B7294600E67D80 /* UIColor+HeliumColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D0CF424B7294600E67D80 /* UIColor+HeliumColor.swift */; };
+		2B4D0CF724B7479000E67D80 /* UIButton+Helium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D0CF624B7479000E67D80 /* UIButton+Helium.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		2B40EB3724B5D93A00A6FBE3 /* UIDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDescriptionView.swift; sourceTree = "<group>"; };
 		2B40EB3924B5DC4000A6FBE3 /* CustomInterfaceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInterfaceFactory.swift; sourceTree = "<group>"; };
 		2B4D0CF424B7294600E67D80 /* UIColor+HeliumColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HeliumColor.swift"; sourceTree = "<group>"; };
+		2B4D0CF624B7479000E67D80 /* UIButton+Helium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Helium.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				2B4D0CF424B7294600E67D80 /* UIColor+HeliumColor.swift */,
+				2B4D0CF624B7479000E67D80 /* UIButton+Helium.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4D0CF724B7479000E67D80 /* UIButton+Helium.swift in Sources */,
 				2B40EB0C24B5C2AF00A6FBE3 /* AppDelegate.swift in Sources */,
 				2B4D0CF524B7294600E67D80 /* UIColor+HeliumColor.swift in Sources */,
 				2B40EB3824B5D93A00A6FBE3 /* UIDescriptionView.swift in Sources */,

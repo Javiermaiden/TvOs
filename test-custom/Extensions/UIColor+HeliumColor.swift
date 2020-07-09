@@ -17,12 +17,12 @@ extension UIColor {
 //    var darkgrey = 0x363636
 
 
-    public class func heliumButtonFocus()  -> UIColor{
+    public class var heliumButtonFocus: UIColor {
         return UIColor.rgb(fromHex: 0x6adcba)
     }
 
     public class var heliumButton: UIColor {
-        return UIColor.rgb(fromHex: 0x000000)
+        return UIColor.rgb(fromHex: 0xCCCCCC)
     }
 
     public class var heliumText: UIColor {
